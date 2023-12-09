@@ -114,11 +114,11 @@ img {
   width: 24px;
   height: 24px;
   border: 0;
-  background-color:transparent;
+  background-color: transparent;
 
 }
 
-.nav__svg{
+.nav__svg {
   position: absolute;
   top: -3px;
   left: 1px;
@@ -128,21 +128,21 @@ img {
   transition: stroke 0.3s ease-in-out, border 0.3s ease-in-out, outline 0.3s ease-in-out, fill 0.3s ease-in-out;
 }
 
-.nav__svg:hover{
+.nav__svg:hover {
   stroke: #F90;
   border: 0;
   outline: 0;
 }
 
-.nav__btn:focus{
+.nav__btn:focus {
   border: 0;
   stroke: #F90;
   outline-offset: 3.5px;
   outline: 2px #F90 solid;
 }
 
-.nav__svg:active{
-  fill:none;
+.nav__svg:active {
+  fill: none;
   stroke: #F90;
   border: 0;
 }
@@ -153,18 +153,18 @@ img {
   transition: color 0.3s ease-in-out, border 0.3s ease-in-out, padding 0.3s ease-in-out, outline 0.3s ease-in-out;
 }
 
-.nav__link:hover{
+.nav__link:hover {
   border-bottom: 2px solid;
   border-color: #F90;
 }
 
-.nav__link:focus{
+.nav__link:focus {
   outline: 2px solid #F90;
   outline-offset: 5px;
-  border:0;
+  border: 0;
 }
 
-.nav__link:active{
+.nav__link:active {
   color: #E1670E;
   border-bottom: 2px solid;
   border-color: #F90;
@@ -228,19 +228,19 @@ img {
   cursor: pointer;
 }
 
-.hero__btn:hover{
+.hero__btn:hover {
   background-color: #FFB84D;
   border: 0;
   outline: 0;
 }
 
-.hero__btn:focus{
+.hero__btn:focus {
   background-color: #FFB84D;
   border: 0;
   outline: 0;
 }
 
-.hero__btn:active{
+.hero__btn:active {
   background-color: #E1670E;
   border: 0;
   outline: 0;
@@ -267,7 +267,7 @@ img {
   margin-top: 50px;
 }
 
-.about_div--large {
+.about__div--large {
   display: flex;
   justify-content: end;
   flex-direction: column;
@@ -310,19 +310,19 @@ img {
   cursor: pointer;
 }
 
-.about__btn:hover{
+.about__btn:hover {
   background-color: #F90;
   border: 0;
   outline: 0;
 }
 
-.about__btn:focus{
+.about__btn:focus {
   background-color: #F90;
   border: 0;
   outline: 0;
 }
 
-.about__btn:active{
+.about__btn:active {
   background-color: #E1670E;
   border: 0;
   outline: 0;
@@ -362,7 +362,7 @@ img {
   gap: 32px;
 }
 
-.list_div--text {
+.list__div--text {
   position: relative;
   max-width: 470px;
   margin-left: 39px;
@@ -443,19 +443,19 @@ img {
   cursor: pointer;
 }
 
-.stages__btn--more:hover{
+.stages__btn--more:hover {
   background-color: #FFB84D;
   border: 0;
   outline: 0;
 }
 
-.stages__btn--more:focus{
+.stages__btn--more:focus {
   background-color: #FFB84D;
   border: 0;
   outline: 0;
 }
 
-.stages__btn--more:active{
+.stages__btn--more:active {
   background-color: #E1670E;
   border: 0;
   outline: 0;
@@ -473,21 +473,21 @@ img {
   cursor: pointer;
 }
 
-.stages__btn--contract:hover{
+.stages__btn--contract:hover {
   background-color: #666;
   border: 0;
   outline: 0;
   color: #FFFFFF;
 }
 
-.stages__btn--contract:focus{
+.stages__btn--contract:focus {
   background-color: #666;
   border: 0;
   outline: 0;
   color: #FFFFFF;
 }
 
-.stages__btn--contract:active{
+.stages__btn--contract:active {
   background-color: #000;
   border: 0;
   outline: 0;
@@ -532,7 +532,7 @@ img {
   background: #FFF;
 }
 
-.questions_title--h3 {
+.questions__title--h3 {
   margin: 0;
   width: 412px;
   letter-spacing: -0.3px;
@@ -586,24 +586,24 @@ img {
   width: 252px;
 }
 
-.nav__link--footer{
+.nav__link--footer {
   transition: color 0.3s ease-in-out, border 0.3s ease-in-out, padding 0.3s ease-in-out, outline 0.3s ease-in-out;
 }
 
-.nav__link--footer:hover{
+.nav__link--footer:hover {
   border: 0;
   color: #FF9900;
   outline: 0;
 }
 
-.nav__link--footer:focus{
+.nav__link--footer:focus {
   outline: 2px solid #F90;
   outline-offset: 5px;
   border: 0;
   color: #CACACA;
 }
 
-.nav__link--footer:active{
+.nav__link--footer:active {
   border: 0;
   outline: 0;
   color: #E1670E;
@@ -672,29 +672,29 @@ img {
   padding-left: 24px;
 }
 
-.input{
+.input {
   transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out, outline 0.3s ease-in-out, color 0.3s ease-in-out;
   cursor: pointer;
-  }
+}
 
-  .input:hover{
-    background-color: #666666;
-    border: 0;
-    outline: 0;
-  }
+.input:hover {
+  background-color: #666666;
+  border: 0;
+  outline: 0;
+}
 
-  .input:focus{
-    background-color: #666666;
-    border: 0;
-    outline: 0;
-  }
+.input:focus {
+  background-color: #666666;
+  border: 0;
+  outline: 0;
+}
 
-  .input:active{
-    background-color: #666666;
-    color: #FFFFFF;
-    border: 0;
-    outline: 0;
-  }
+.input:active {
+  background-color: #666666;
+  color: #FFFFFF;
+  border: 0;
+  outline: 0;
+}
 
 .footer__btn {
   display: flex;
@@ -710,25 +710,25 @@ img {
   font-size: 16px;
   transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out, outline 0.3s ease-in-out;
   cursor: pointer;
-  }
+}
 
-  .footer__btn:hover{
-    background-color: #FFB84D;
-    border: 0;
-    outline: 0;
-  }
+.footer__btn:hover {
+  background-color: #FFB84D;
+  border: 0;
+  outline: 0;
+}
 
-  .footer__btn:focus{
-    background-color: #FFB84D;
-    border: 0;
-    outline: 0;
-  }
+.footer__btn:focus {
+  background-color: #FFB84D;
+  border: 0;
+  outline: 0;
+}
 
-  .footer__btn:active{
-    background-color: #E1670E;
-    border: 0;
-    outline: 0;
-  }
+.footer__btn:active {
+  background-color: #E1670E;
+  border: 0;
+  outline: 0;
+}
 
 .checkbox__text {
   color: #CACACA;
@@ -747,7 +747,7 @@ img {
   margin-left: 22px;
 }
 
-.footer_right {
+.footer__right {
   margin-top: 139px;
   width: 363px;
 }
@@ -803,27 +803,28 @@ img {
   line-height: 32px;
 }
 
-.socail__link{
+.socail__link {
   fill: #666666;
   transition: fill 0.3s ease-in-out, border 0.3s ease-in-out, outline 0.3s ease-in-out;
   cursor: pointer;
-  }
+}
 
-  .socail__link:hover{
-    fill: #FF9900;
-    border: 0;
-    outline: 0;
-  }
+.socail__link:hover {
+  fill: #FF9900;
+  border: 0;
+  outline: 0;
+}
 
-  .socail__link:focus{
-    fill: #666666;
-    border: 0;
-    outline: 2px solid #F90;;
-    outline-offset: 5px;
-  }
+.socail__link:focus {
+  fill: #666666;
+  border: 0;
+  outline: 2px solid #F90;
+  ;
+  outline-offset: 5px;
+}
 
-  .socail__link:active{
-    fill: #E1670E;
-    border: 0;
-    outline: 0;
-  }
+.socail__link:active {
+  fill: #E1670E;
+  border: 0;
+  outline: 0;
+}
