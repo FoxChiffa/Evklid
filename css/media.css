@@ -1,0 +1,707 @@
+@media (max-width: 1120px) {
+
+  .container {
+    padding: 0 5%;
+  }
+
+  /*header  */
+  .header__link {
+    width: 150px;
+    height: 48px;
+    margin: 26px auto 26px 50px;
+  }
+
+  .header__nav {
+    margin: 0 9.3% 0 0;
+  }
+
+  .nav__list {
+    column-gap: 60px;
+  }
+
+  .nav__svg {
+    left: 47px;
+  }
+
+  /* hero */
+  .hero {
+    margin-top: 36px;
+  }
+
+  .hero__div {
+    padding: 17.5% 0 0 8%;
+    max-width: 924px;
+    min-height: 668px;
+    background-image: url("../img/back-1024.jpg");
+  }
+
+  .hero__title {
+    font-size: 60px;
+    letter-spacing: -0.5px;
+    line-height: 72px;
+  }
+
+  .hero__title--smile {
+    margin-top: 2%;
+    font-size: 20px;
+    max-width: 660px;
+    letter-spacing: -0.4px;
+    word-spacing: 1.4px;
+  }
+
+  .hero__btn {
+    margin-top: 7%;
+    font-size: 24px;
+  }
+
+  /* about */
+  .about {
+    margin-top: 36px;
+  }
+
+  .about__div--large {
+    border-radius: 32px;
+    height: 640px;
+    width: 100%;
+  }
+
+  .div__back {
+    border-radius: 32px;
+  }
+
+  .about__div {
+    flex-wrap: wrap;
+    margin-top: 6.2%;
+  }
+
+  .about__btn {
+    margin-left: 18%;
+  }
+
+  .about__list {
+    width: 100%;
+  }
+
+  .list__item {
+    max-width: 100%;
+    padding: 12.4% 60px 0 8.3%;
+  }
+
+  /* stages */
+  .stages {
+    padding-top: 8%;
+  }
+
+  .stages__right {
+    max-width: 437px;
+  }
+
+  .stages__left {
+    max-width: 437px;
+    min-height: 689px;
+    border-radius: 32px;
+  }
+
+  .stages__div--btns {
+    gap: 5.9%;
+    margin-top: 5.5%;
+  }
+
+  /* questions */
+  .questions {
+    padding-top: 8%;
+  }
+
+  .questions__list {
+    flex-direction: column;
+    gap: 33px;
+  }
+
+  .list__item--questions {
+    width: 100%;
+    min-height: 100%;
+    padding: 6.8% 6.8% 6.8% 6.4%;
+  }
+
+  .questions__title--h3 {
+    max-width: 100%
+  }
+
+  .questions__text {
+    max-width: 100%;
+  }
+
+  /* footer */
+  .footer {
+    padding-top: 8%;
+  }
+
+  .footer__left {
+    padding-left: 5%;
+  }
+
+  .footer__right {
+    display: none;
+  }
+
+  .footer__center {
+    width: auto;
+    margin-left: 10%;
+  }
+
+  .footer__text,
+  .footer__area {
+    width: 91%;
+  }
+
+  .footer__btn {
+    padding: 3.3% 5.8%;
+  }
+}
+
+@media (max-width: 860px) {
+  .container {
+    padding: 0 6.2%;
+  }
+
+  /*header  */
+  .header__link {
+    width: 110px;
+    height: 35px;
+    margin: 2.4% 0 auto 6.7%;
+  }
+
+  .header__nav {
+    margin: -1.7% 0 0 5.4%
+  }
+
+  .nav__list {
+    column-gap: 43px;
+  }
+
+  .nav__link {
+    font-size: 16px;
+  }
+
+  .nav__svg {
+    left: 0px;
+    top: -7px;
+  }
+
+  /* hero */
+  .hero {
+    margin-top: 19px;
+  }
+
+  .hero__div {
+    padding: 23% 0 0 6%;
+    max-width: 668px;
+    min-height: 662px;
+    background-image: url("../img/back-768.jpg");
+  }
+
+  .hero__title {
+    font-size: 50px;
+    line-height: 62px;
+  }
+
+  .hero__title--smile {
+    margin-top: 3%;
+    font-size: 18px;
+    max-width: 588px;
+  }
+
+  .hero__btn {
+    margin-top: 10%;
+    font-size: 24px;
+  }
+
+  /* about */
+  .about__div {
+    margin-top: 7.9%;
+  }
+
+  .about__div--large {
+    max-width: 668px;
+    min-height: 650px;
+    background-position: bottom;
+  }
+
+  .about__btn {
+    margin-left: 1%;
+  }
+
+  .list__item {
+    padding: 14.1% 0 0 6.3%;
+    min-height: 235px;
+  }
+
+  .list__div--image {
+    width: 60px;
+    height: 72px;
+    min-width: 71px;
+    min-height: 60px;
+  }
+
+  .coube:before {
+    width: 72px;
+    height: 80px;
+    right: -43px;
+    top: -27px;
+    background-size: contain;
+  }
+
+  .gear:before {
+    width: 84px;
+    height: 82px;
+    right: -44px;
+    top: -27px;
+    background-size: contain;
+  }
+
+  .list__div--text {
+    margin-left: -3.5%;
+    margin-top: -9.1%;
+    max-width: 474px;
+  }
+
+  /* stages */
+  .stages {
+    padding-top: 11%;
+  }
+
+  .stages__left {
+    max-width: 100%;
+    min-height: 100%;
+  }
+
+  .stages__div {
+    flex-direction: column-reverse;
+  }
+
+  .stages__left {
+    max-width: 668px;
+    max-height: 284px;
+    margin-top: 5%;
+  }
+
+  .stages__right {
+    max-width: 667px;
+  }
+
+  .stages__br {
+    display: none;
+  }
+
+  .stages__div--btns {
+    gap: 4.6%;
+    margin-top: 3.5%;
+  }
+
+  /* questions  */
+  .questions {
+    padding-top: 11%;
+  }
+
+  .list__item--questions {
+    padding: 4.8% 6.8% 5.6% 6.4%;
+  }
+
+  /* footer */
+  .footer {
+    padding-top: 9%;
+  }
+
+  .footer__container {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .footer__nav {
+    display: none;
+  }
+
+  .footer__center {
+    margin-top: 7%;
+    margin-left: 6.5%;
+  }
+
+  .footer__text,
+  .footer__area {
+    width: 78%;
+  }
+
+  .footer__left {
+    margin-left: 1.5%;
+    margin-top: 3%;
+  }
+
+  .footer__social {
+    padding-top: 6%;
+  }
+}
+
+@media (max-width: 750px) {
+  .header__block {
+    flex-wrap: wrap;
+  }
+
+  .nav__search {
+    display: none;
+  }
+
+  .header__search {
+    display: block;
+  }
+
+  .header__link {
+    width: 110px;
+    height: 35px;
+    margin-right: auto;
+  }
+
+  .nav__svg {
+    left: -30px;
+    top: 74px;
+  }
+
+  .nav__list {
+    column-gap: 69px;
+  }
+
+  .stages__left {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 619px) {
+  .nav__svg {
+    left: -30px;
+    top: 18px;
+  }
+
+  .nav__svg {
+    left: -30px;
+    top: 18px;
+  }
+
+  .footer__block--btn {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .header__nav {
+    overflow-x: auto;
+    flex-shrink: 0;
+  }
+}
+
+@media (max-width: 520px) {
+
+  .footer__text,
+  .footer__area {
+    width: 50%;
+  }
+}
+
+@media (max-width: 420px) {
+  .container {
+    padding: 0 5%;
+  }
+
+  /* header */
+  .header__link {
+    width: 110px;
+    height: 35px;
+    margin-top: 5%;
+    margin-left: 4.5%;
+  }
+
+  .nav__svg {
+    left: -16px;
+    top: 20px;
+  }
+
+  .header__nav {
+    margin: -4.7% 0 0 5.4%;
+  }
+
+  .nav__list {
+    column-gap: 25px;
+  }
+
+  .hero__div {
+    padding: 21% 0 0 0;
+    height: auto;
+    max-width: 290px;
+    min-height: 308px;
+    background-image: url(../img/back-320.jpg);
+    border-radius: 17px;
+  }
+
+  .hero__title {
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+  }
+
+  .hero__title--smile {
+    margin-top: 1%;
+    font-size: 12px;
+    max-width: 588px;
+    text-align: center;
+    line-height: 15px;
+  }
+
+  .hero__btn {
+    margin-top: 11%;
+    font-size: 12px;
+    width: 163px;
+    height: 46px;
+    margin-left: 63px;
+    border-radius: 10px;
+  }
+
+  /* about */
+  .about {
+    margin-top: 19%;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .about__text {
+    font-size: 14px;
+    line-height: 28px;
+    margin: 22px 0 0 0;
+  }
+
+  .about__div {
+    margin-top: 5%;
+    gap: 7px;
+  }
+
+  .about__div--large {
+    width: 290px;
+    height: 200px;
+    max-width: 290px;
+    min-height: 200px;
+    border-radius: 10px;
+  }
+
+  .div__back {
+    display: none;
+  }
+
+  .about__360--text {
+    display: block;
+    margin-top: 0;
+    max-width: 290px;
+    min-height: 140px;
+    color: #000;
+    font-family: "Montserrat-Regular";
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .about__360--btn {
+    display: block;
+  }
+
+  .list__item {
+    padding: 0;
+    min-height: 235px;
+    flex-direction: column;
+    border: 0;
+  }
+
+  .list__div--image {
+    width: 10px;
+    height: 26px;
+    min-width: 40px;
+    min-height: 42px;
+  }
+
+  .coube:before {
+    width: 43px;
+    height: 80px;
+    right: -23px;
+    top: -5px;
+  }
+
+  .list__div--text {
+    margin-top: 5.5%;
+    margin-left: 0;
+  }
+
+  .list__title {
+    margin: 0;
+    font-size: 18px;
+    letter-spacing: -0.4px;
+    word-spacing: 1px;
+  }
+
+  .list__text {
+    margin: 0;
+    margin-top: 5px;
+    margin-left: -3px;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .about__list {
+    margin-top: 11%;
+  }
+
+  .gear:before {
+    width: 84px;
+    height: 46px;
+    right: -62px;
+    top: -1px;
+  }
+
+  /* stages */
+  .stages {
+    padding-top: 21%;
+  }
+
+  .stages__left {
+    width: 290px;
+    height: 160px;
+    border-radius: 15px;
+    margin-top: 20px;
+  }
+
+  .stages__title--smile {
+    margin: 0;
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .stages__text {
+    margin: 0;
+    margin-top: 6px;
+    max-width: 758px;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .stages__btn--more {
+    width: 162px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 12px;
+  }
+
+  .stages__btn--contract {
+    width: 118px;
+    height: 39px;
+    border-radius: 10px;
+    font-size: 12px;
+  }
+
+  .stages__div--btns {
+    gap: 2.6%;
+    margin-top: 8.5%;
+  }
+
+  /* questions */
+  .questions {
+    padding-top: 18%;
+  }
+
+  .questions__title--h3 {
+    margin: 0;
+    max-width: 424px;
+    letter-spacing: -0.3px;
+    word-spacing: -5px;
+    padding-top: 1px;
+    font-size: 18px;
+  }
+
+  .questions__text {
+    margin: 0;
+    max-width: 495px;
+    font-size: 14px;
+    line-height: 28px;
+    padding-top: 6px;
+  }
+
+  .questions__list {
+    padding-top: 11px;
+    gap: 5px;
+  }
+
+  .list__item--questions {
+    padding: 4.1% 0 5.6% 0.3%;
+    outline: 0;
+  }
+
+  /* footer */
+  .footer {
+    padding-top: 13%;
+  }
+
+  .socail__title {
+    font-size: 24px;
+  }
+
+  .footer__center {
+    margin-top: 9.5%;
+    margin-left: 4.5%;
+  }
+
+  .footer__text,
+  .footer__area {
+    width: 51%;
+    font-size: 14px;
+    padding-left: 21px;
+    padding-top: 0;
+  }
+
+  .footer__btn {
+    width: 162px;
+    height: 40px;
+    margin-top: 3%;
+    margin-left: 11.4%;
+    border-radius: 11px;
+    font-size: 12px;
+    padding: 0;
+  }
+
+  .footer__block--btn {
+    display: block;
+  }
+
+  .footer__check--label {
+    margin-left: 6px;
+  }
+
+  .footer__span {
+    margin-top: 18px;
+  }
+
+  .footer__link {
+    width: 131px;
+    height: 42px;
+  }
+
+  .footer__left {
+    margin-left: 24.5%;
+    margin-top: 6%;
+  }
+
+  .socail__img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .social__item {
+    margin-top: 11%;
+    width: 18px;
+    margin-left: 21%;
+  }
+
+}
