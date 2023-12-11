@@ -102,6 +102,11 @@
     border-radius: 32px;
   }
 
+  .stages__btn--contract{
+    padding: 19px 36px;
+    margin-left: 6px;
+  }
+
   .stages__div--btns {
     gap: 5.9%;
     margin-top: 5.5%;

@@ -245,6 +245,7 @@ img {
   font-size: 22px;
   transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out, outline 0.3s ease-in-out;
   cursor: pointer;
+  border:0;
 }
 
 .hero__btn:hover {
@@ -482,6 +483,7 @@ img {
   transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out, outline 0.3s ease-in-out;
   cursor: pointer;
   color: white;
+  border: 0;
 }
 
 .stages__btn--more:hover {
@@ -757,6 +759,7 @@ img {
   font-size: 16px;
   transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out, outline 0.3s ease-in-out;
   cursor: pointer;
+  border: 0;
 }
 
 .footer__btn:hover {
