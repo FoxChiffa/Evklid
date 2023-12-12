@@ -22,6 +22,10 @@ html {
   box-sizing: inherit;
 }
 
+.visually-hidden{
+  position: fixed;
+}
+
 @font-face {
   font-family: "Montserrat-Regular";
   /* 400 */
@@ -243,7 +247,7 @@ img {
   color: var(--whire-color);
   font-family: "Montserrat-ExtraBold";
   font-size: 22px;
-  transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out, outline 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out, outline 0.3s ease-in-out, outline 0.3s ease-in-out, outline-offset 0.3s ease-in-out;
   cursor: pointer;
   border:0;
 }
@@ -257,7 +261,8 @@ img {
 .hero__btn:focus {
   background-color: var(--sand-color);
   border: 0;
-  outline: 0;
+  outline: 2px var(--yelow-color) solid;
+  outline-offset: 4px;
 }
 
 .hero__btn:active {
@@ -333,7 +338,7 @@ img {
   border: 3px solid var(--yelow-color);
   background-color: transparent;
   color: var(--whire-color);
-  transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out, outline 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out, outline 0.3s ease-in-out, outline 0.3s ease-in-out, outline-offset 0.3s ease-in-out;
   cursor: pointer;
 }
 
@@ -345,7 +350,7 @@ img {
   border-radius: 9px;
   border: 3px solid var(--yelow-color);
   background-color: transparent;
-  transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out, outline 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out, outline 0.3s ease-in-out, outline 0.3s ease-in-out, outline-offset 0.3s ease-in-out;
   cursor: pointer;
   color: #FF9900;
   margin-top: -4%;
@@ -361,10 +366,30 @@ img {
 .about__btn:focus {
   background-color: var(--yelow-color);
   border: 0;
-  outline: 0;
+  outline: 2px var(--yelow-color) solid;
+  outline-offset: 4px;
 }
 
 .about__btn:active {
+  background-color: var(--sandy-yellow-color);
+  border: 0;
+  outline: 0;
+}
+
+.about__360:hover {
+  background-color: var(--yelow-color);
+  border: 0;
+  outline: 0;
+}
+
+.about__360:focus {
+  background-color: var(--yelow-color);
+  border: 0;
+  outline: 2px var(--yelow-color) solid;
+  outline-offset: 4px;
+}
+
+.about__360:active {
   background-color: var(--sandy-yellow-color);
   border: 0;
   outline: 0;
@@ -480,7 +505,7 @@ img {
   align-items: center;
   border-radius: 16px;
   background: var(--yelow-color);
-  transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out, outline 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out, outline 0.3s ease-in-out, outline 0.3s ease-in-out, outline-offset 0.3s ease-in-out;
   cursor: pointer;
   color: white;
   border: 0;
@@ -496,6 +521,8 @@ img {
   background-color: var(--sand-color);
   border: 0;
   outline: 0;
+  outline: 2px var(--yelow-color) solid;
+  outline-offset: 4px;
 }
 
 .stages__btn--more:active {
@@ -512,7 +539,7 @@ img {
   background-color: transparent;
   border-radius: 16px;
   border: 1px solid var(--black-color);
-  transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out, outline 0.3s ease-in-out, color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out, outline 0.3s ease-in-out, color 0.3s ease-in-out, outline 0.3s ease-in-out, outline-offset 0.3s ease-in-out;
   cursor: pointer;
 }
 
@@ -526,7 +553,8 @@ img {
 .stages__btn--contract:focus {
   background-color: var(--gray-colore);
   border: 0;
-  outline: 0;
+  outline: 2px var(--yelow-color) solid;
+  outline-offset: 4px;
   color: var(--whire-color);
 }
 
@@ -721,8 +749,9 @@ img {
   padding-left: 24px;
 }
 
+
 .input {
-  transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out, outline 0.3s ease-in-out, color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out, outline 0.3s ease-in-out, color 0.3s ease-in-out, outline-offset 0.3s ease-in-out;;
   cursor: pointer;
 }
 
@@ -735,7 +764,8 @@ img {
 .input:focus {
   background-color: var(--gray-colore);
   border: 0;
-  outline: 0;
+  outline: 2px var(--yelow-color) solid;
+  outline-offset: 4px;
 }
 
 .input:active {
@@ -757,7 +787,7 @@ img {
   text-align: center;
   font-family: "Montserrat-ExtraBold";
   font-size: 16px;
-  transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out, outline 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out, outline 0.3s ease-in-out, outline 0.3s ease-in-out, outline-offset 0.3s ease-in-out;
   cursor: pointer;
   border: 0;
 }
@@ -771,7 +801,8 @@ img {
 .footer__btn:focus {
   background-color: var(--sand-color);
   border: 0;
-  outline: 0;
+  outline: 2px var(--yelow-color) solid;
+  outline-offset: 4px;
 }
 
 .footer__btn:active {
@@ -806,10 +837,31 @@ img {
 .footer__check--label {
   cursor: pointer;
   margin-left: 16px;
+  transition: outline 0.3s ease-in-out, outline-offset 0.3s ease-in-out;
 }
 
-.footer__check {
+/* .footer__check--label input {
   display: none;
+} */
+
+.footer__check--label input[type="checkbox"]:focus + span::before {
+  outline: rgb(59, 153, 252) auto 5px;
+}
+
+.footer__check--label:hover {
+  border: 0;
+  outline: 0;
+}
+
+.visually-hidden:focus{
+  border: 0;
+  outline-offset: 4px;
+  outline: 2px var(--yelow-color) solid;
+}
+
+.footer__check--label:active {
+  border: 0;
+  outline: 0;
 }
 
 .footer__span {
@@ -822,7 +874,7 @@ img {
   color: var(--gray-morn-colore);
 }
 
-.footer__span::before {
+.footer__check--label span::before {
   content: "";
   position: absolute;
   left: 0;
@@ -839,9 +891,10 @@ img {
   top: 0;
   width: 20px;
   height: 20px;
+  opacity: 1;
 }
 
-.footer__check:checked+.footer__span::after {
+.footer__check:checked + .footer__span::after {
   opacity: 0;
   transition: opacity 0.3s;
 }
